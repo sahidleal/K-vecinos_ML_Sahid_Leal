@@ -1,6 +1,6 @@
-# Plantilla de Proyecto de Ciencia de Datos
+# Clasificación de vinos con KNN
 
-Esta plantilla está diseñada para impulsar proyectos de ciencia de datos proporcionando una configuración básica para conexiones de base de datos, procesamiento de datos, y desarrollo de modelos de aprendizaje automático. Incluye una organización estructurada de carpetas para tus conjuntos de datos y un conjunto de paquetes de Python predefinidos necesarios para la mayoría de las tareas de ciencia de datos.
+Proyecto de aprendizaje automático que utiliza el algoritmo K-Nearest Neighbors (KNN) para clasificar vinos a partir de sus características. El análisis, el entrenamiento y la evaluación del modelo se encuentran en el notebook `src/explore.ipynb`.
 
 ## Estructura
 
@@ -15,6 +15,13 @@ El proyecto está organizado de la siguiente manera:
   - **`data/raw/`** → Datos sin procesar.
   - **`data/interim/`** → Datos transformados temporalmente.
   - **`data/processed/`** → Datos listos para análisis.
+
+## Resultados
+
+El entrenamiento genera los siguientes artefactos en `data/processed/`:
+
+- `knn_wine_model.pkl` → Modelo KNN entrenado.
+- `scaler.pkl` → Escalador utilizado para preparar las características.
 
 
 ## ⚡ Configuración Inicial en Codespaces (Recomendado)
